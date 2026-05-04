@@ -9,20 +9,24 @@
 <body>
   <div id="particles-js"></div>
 
-  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
-
-<script>
-particlesJS("particles-hero", {
-  particles: {
-    number: { value: 30 },
-    color: { value: "#ff007f" },
-    opacity: { value: 0.06 }, 
-    size: { value: 2 },
-    move: { speed: 0.6 }
-  },
-  interactivity: {
-    events: { onhover: { enable: false } }
+  <script>
+document.addEventListener("DOMContentLoaded", function () {
+  if (typeof particlesJS === "undefined") {
+    console.error("particles.js NO cargó");
+    return;
   }
+
+  particlesJS("particles-hero", {
+    particles: {
+      number: { value: 50 },
+      color: { value: "#ff007f" },
+      opacity: { value: 0.2 },
+      size: { value: 3 },
+      move: { speed: 1 }
+    }
+  });
+
+  console.log("particles inicializado");
 });
 </script>
   <!-- NAVBAR -->
