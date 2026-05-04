@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Agencia Marketing</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <header class="header">
+    <div class="container nav">
+      <h1 class="logo">AGENCIA</h1>
+      <nav>
+        <ul>
+          <li><a href="#">Inicio</a></li>
+          <li><a href="#">Servicios</a></li>
+          <li><a href="#">Proyectos</a></li>
+          <li><a href="#">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="container">
+      <h2>Impulsamos tu marca al siguiente nivel</h2>
+      <p>Estrategia, creatividad y resultados reales</p>
+      <a href="#" class="btn">Trabajemos juntos</a>
+    </div>
+  </section>
+
+  <!-- SERVICIOS -->
+  <section class="services container">
+    <h2>Servicios</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>Marketing Digital</h3>
+        <p>Campañas que convierten y escalan.</p>
+      </div>
+      <div class="card">
+        <h3>Branding</h3>
+        <p>Construimos marcas sólidas.</p>
+      </div>
+      <div class="card">
+        <h3>Social Media</h3>
+        <p>Contenido estratégico y viral.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta">
+    <div class="container">
+      <h2>¿Listo para crecer?</h2>
+      <a href="#" class="btn">Contáctanos</a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <p>© 2026 Agencia Marketing</p>
+  </footer>
+
+</body>
+</html>
