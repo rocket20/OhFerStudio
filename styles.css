@@ -10,15 +10,26 @@
   display: block;
 }
 
-#particles-js {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: -1; /* detrás de todo */
+.hero {
+  position: relative;
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  overflow: hidden; /* importante */
+  background: linear-gradient(180deg, #000000 60%, #ff007f20);
 }
 
+#particles-hero {
+  position: absolute;
+  inset: 0;           /* top:0 right:0 bottom:0 left:0 */
+  z-index: 0;         /* capa de fondo */
+}
+
+.hero-content {
+  position: relative;
+  z-index: 1;         /* contenido por encima */
+}
 /* VARIABLES */
 :root {
   --fucsia: #ff007f;
